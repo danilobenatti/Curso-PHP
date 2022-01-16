@@ -32,6 +32,7 @@
 					<h3>Capítulo 2 - Tipos</h3>
 					<ul>
 						<li><a href="exercicio.php?dir=tipos&file=int"> Inteiros </a></li>
+						<li><a href="exercicio.php?dir=tipos&file=float"> Floats </a></li>
 					</ul>
 				</div>
 			</nav>
