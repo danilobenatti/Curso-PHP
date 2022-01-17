@@ -30,6 +30,6 @@
 			?>
 		</div>
 	</main>
-	<footer class="rodape">COD3R &amp ALUNOS &copy <?= date('Y')?></footer>
+	<footer class="rodape">COD3R &amp; ALUNOS &copy; <?= date('Y')?></footer>
 </body>
 </html>
