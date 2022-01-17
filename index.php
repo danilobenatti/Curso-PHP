@@ -33,6 +33,7 @@
 					<ul>
 						<li><a href="exercicio.php?dir=tipos&file=int"> Inteiros </a></li>
 						<li><a href="exercicio.php?dir=tipos&file=float"> Floats </a></li>
+						<li><a href="exercicio.php?dir=tipos&file=aritmeticas"> Operações Aritméticas </a></li>
 					</ul>
 				</div>
 			</nav>
