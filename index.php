@@ -45,6 +45,7 @@
 					<h3>Capítulo 3 - Variáveis</h3>
 					<ul>
 						<li><a href="exercicio.php?dir=variaveis&file=basico">Básico</a></li>
+						<li><a href="exercicio.php?dir=variaveis&file=desafio_equacao">Desafio Equação</a></li>
 					</ul>
 				</div>
 			</nav>
