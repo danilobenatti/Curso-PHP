@@ -32,7 +32,7 @@ var_dump(50 <=> 5);
 var_dump(50 <=> 50);
 var_dump(5 <=> 50);
 
-echo '<p>Spaceship</p><hr>';
+echo '<p>Valores pode ser V ou F</p><hr>';
 var_dump(!!5);
 var_dump(!!0);
 var_dump(!!50);
