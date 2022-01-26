@@ -5,7 +5,7 @@
 	- Se apenas um trabalho for executado -> TV 32" e Sorvete.
 	- Se nemhum for executado -> Ficará em casa, será mais saudável!
  -->
- <form action="#" method="post">
+<form action="#" method="post">
 	<div>
 		<label for="t1">Trabalho 1(terça):</label>
 		<select name="t1" id="t1">
@@ -21,8 +21,8 @@
 		</select>
 	</div>
 	<button>Executar</button>
- </form>
- 
+</form>
+
 <style>
 button, select {
 	font-size: 1.8rem;
@@ -30,19 +30,19 @@ button, select {
 </style>
 
 <?php
-if (isset($_POST ['t1']) and isset($_POST ['t2'])) {
-	echo $_POST ['t1'];
+if (isset($_POST['t1']) and isset($_POST['t2'])) {
+	echo $_POST['t1'];
 	echo '<br>';
-	echo $_POST ['t2'];
+	echo $_POST['t2'];
 	echo '<br>';
-	var_dump ( $_POST ['t1'] );
-	var_dump ( $_POST ['t2'] );
+	var_dump ($_POST['t1']);
+	var_dump ($_POST['t2']);
 	echo '<br>';
-	var_dump ( !!$_POST ['t1'] );
-	var_dump ( !!$_POST ['t2'] );
+	var_dump (!!$_POST['t1']);
+	var_dump (!!$_POST['t2']);
 
-	$t1 = $_POST ['t1'] === '1';
-	$t2 = !!$_POST ['t2'];
+	$t1 = $_POST['t1'] === '1';
+	$t2 = !!$_POST['t2'];
 	$tv = '';
 	$sorvete = FALSE;
 
