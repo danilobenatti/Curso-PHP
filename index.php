@@ -67,6 +67,12 @@
 						<li><a href="exercicio.php?dir=controle&file=desafio_switch">Desafio Switch</a></li>
 					</ul>
 				</div>
+				<div class="secoes laranja">
+					<h3>Capítulo 5 - Arrays</h3>
+					<ul>
+						<li><a href="exercicio.php?dir=array&file=basico">Básico</a></li>
+					</ul>
+				</div>
 			</nav>
 		</div>
 	</main>
