@@ -71,6 +71,7 @@
 					<h3>Capítulo 5 - Arrays</h3>
 					<ul>
 						<li><a href="exercicio.php?dir=array&file=basico">Básico</a></li>
+						<li><a href="exercicio.php?dir=array&file=mapa">Array como Mapas</a></li>
 					</ul>
 				</div>
 			</nav>
