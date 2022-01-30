@@ -74,6 +74,7 @@
 						<li><a href="exercicio.php?dir=array&file=mapa">Array como Mapas</a></li>
 						<li><a href="exercicio.php?dir=array&file=desafio_index">Desafio Index</a></li>
 						<li><a href="exercicio.php?dir=array&file=desafio_meses">Desafio Meses</a></li>
+						<li><a href="exercicio.php?dir=array&file=operacoes">Operações com Array</a></li>
 					</ul>
 				</div>
 			</nav>
