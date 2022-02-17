@@ -83,6 +83,11 @@
 						<li><a href="exercicio.php?dir=array&file=comparacao">Comparação de Arrays</a></li>
 					</ul>
 				</div>
+				<div class="secoes verde-escuro">
+					<h3>Capítulo 6 - Estruturas de Controle</h3>
+					<ul>
+						<li><a href="exercicio.php?dir=repeticoes&file=for">Laço For</a></li>
+					</ul>
 			</nav>
 		</div>
 	</main>
