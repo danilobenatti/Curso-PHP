@@ -87,6 +87,7 @@
 					<h3>Capítulo 6 - Estruturas de Controle</h3>
 					<ul>
 						<li><a href="exercicio.php?dir=repeticoes&file=for">Laço For</a></li>
+						<li><a href="exercicio.php?dir=repeticoes&file=desafiofor">Desafio For</a></li>
 					</ul>
 			</nav>
 		</div>
