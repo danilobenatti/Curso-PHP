@@ -91,6 +91,7 @@
 						<li><a href="exercicio.php?dir=repeticoes&file=foreach">Laço Foreach</a></li>
 						<li><a href="exercicio.php?dir=repeticoes&file=break_continue">Break &amp; Continue</a></li>
 						<li><a href="exercicio.php?dir=repeticoes&file=desafio_impressao">Desafio Impressão</a></li>
+						<li><a href="exercicio.php?dir=repeticoes&file=while_dowhile">While &amp; Do While</a></li>
 					</ul>
 				</div>
 			</nav>
