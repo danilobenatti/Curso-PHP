@@ -89,7 +89,9 @@
 						<li><a href="exercicio.php?dir=repeticoes&file=for">Laço For</a></li>
 						<li><a href="exercicio.php?dir=repeticoes&file=desafiofor">Desafio For</a></li>
 						<li><a href="exercicio.php?dir=repeticoes&file=foreach">Laço Foreach</a></li>
+						<li><a href="exercicio.php?dir=repeticoes&file=break_continue">Break &amp; Continue</a></li>
 					</ul>
+				</div>
 			</nav>
 		</div>
 	</main>
