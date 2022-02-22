@@ -100,6 +100,7 @@
 					<h3>Capítulo 7 - Funções</h3>
 					<ul>
 						<li><a href="exercicio.php?dir=funcoes&file=escopo">Função &amp; Escopo</a></li>
+						<li><a href="exercicio.php?dir=funcoes&file=arg_retorno">Argumentos &amp; Retorno</a></li>
 					</ul>
 				</div>
 			</nav>
