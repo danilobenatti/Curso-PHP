@@ -96,6 +96,12 @@
 						<li><a href="exercicio.php?dir=repeticoes&file=desafio_tabela_2">Desafio Tabela #02</a></li>
 					</ul>
 				</div>
+				<div class="secoes vermelho-escuro">
+					<h3>Capítulo 7 - Funções</h3>
+					<ul>
+						<li><a href="exercicio.php?dir=funcoes&file=escopo">Função &amp; Escopo</a></li>
+					</ul>
+				</div>
 			</nav>
 		</div>
 	</main>
