@@ -105,6 +105,7 @@
 						<li><a href="exercicio.php?dir=funcoes&file=arg_variaveis">Argumentos Variáveis</a></li>
 						<li><a href="exercicio.php?dir=funcoes&file=arg_padrao">Argumentos Padrão</a></li>
 						<li><a href="exercicio.php?dir=funcoes&file=usando_tipos">Declarando Tipos</a></li>
+						<li><a href="exercicio.php?dir=funcoes&file=funcao_anonima">Funções Anônima</a></li>
 					</ul>
 				</div>
 			</nav>
