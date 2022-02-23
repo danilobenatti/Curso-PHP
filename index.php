@@ -103,6 +103,7 @@
 						<li><a href="exercicio.php?dir=funcoes&file=arg_retorno">Argumentos &amp; Retorno</a></li>
 						<li><a href="exercicio.php?dir=funcoes&file=desafio_palindromo">Desafio Palíndromo</a></li>
 						<li><a href="exercicio.php?dir=funcoes&file=arg_variaveis">Argumentos Variáveis</a></li>
+						<li><a href="exercicio.php?dir=funcoes&file=arg_padrao">Argumentos Padrão</a></li>
 					</ul>
 				</div>
 			</nav>
