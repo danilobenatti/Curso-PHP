@@ -117,6 +117,7 @@
 					<h3>Capítulo 8 - Orientação a Objetos</h3>
 					<ul>
 						<li><a href="exercicio.php?dir=classes_objetos&file=classe">Primeira Classe</a></li>
+						<li><a href="exercicio.php?dir=classes_objetos&file=desafio_data">Desafio Classe Data</a></li>
 					</ul>
 				</div>
 			</nav>
