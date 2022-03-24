@@ -1,4 +1,4 @@
-<div class="titulo">Break & Continue</div>
+<div class="titulo">Break &amp; Continue</div>
 
 <?php
 $count = 15;
