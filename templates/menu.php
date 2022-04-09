@@ -136,7 +136,8 @@
 	<div class="secoes verde">
 		<h3>Capítulo 11 - Tratamento de Erros e Excecções</h3>
 		<ul>
-			<li><a href="exercicio.php?dir=tratamento_erro&file=try_catch">Try/Catch</a></li>
+			<li><a href="exercicio.php?dir=tratamento_erro&file=try_catch">Try &frasl; Catch</a></li>
+			<li><a href="exercicio.php?dir=tratamento_erro&file=erros_personalizados">Erros Personalizados</a></li>
 		</ul>
 	</div>
 </nav>

@@ -1,4 +1,4 @@
-<div class="titulo">Try/Catch</div>
+<div class="titulo">Try &frasl; Catch</div>
 
 <?php
 try {
