@@ -8,6 +8,7 @@ echo "Mundo PHP!";
 
 <h3>Exemplo B</h3>
 <?= "Outra forma de me 'expressar'!" ?>
+<br>
 <?= 2 * 3 + 3 ?>
 
 <?php phpinfo();?>

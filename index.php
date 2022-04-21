@@ -17,7 +17,7 @@
 	</header>
 	<main class="principal">
 		<div class="conteudo">
-			<?php require_once 'templates/menu.php'; ?>
+			<?php require_once "templates" . DIRECTORY_SEPARATOR . "menu.php"; ?>
 		</div>
 	</main>
 	<footer class="rodape">COD3R &amp; ALUNOS &copy; <?= date('Y')?></footer>

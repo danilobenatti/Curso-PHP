@@ -4,11 +4,14 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<link rel="stylesheet" href="resources\css\style.css">
+<link rel="stylesheet" href="resources\css\exercicio.css">
 <link
 	href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
 	rel="stylesheet">
-<link rel="stylesheet" href="resources\css\style.css">
-<link rel="stylesheet" href="resources\css\exercicio.css">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+	rel="stylesheet">
 <title>Exercício</title>
 </head>
 <body class="exercicio">
@@ -18,7 +21,7 @@
 	</header>
 	<nav class="navegacao">
 		<a href=<?="{$_GET['dir']}/{$_GET['file']}.php"?> class="verde">Sem formatação</a>
-		<a href="index.php" class="vermelho">Voltar</a>
+		<a href="index.php" class="vermelho">Início</a>
 	</nav>
 	<main class="principal">
 		<div class="conteudo">

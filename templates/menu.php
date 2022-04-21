@@ -134,12 +134,18 @@
 		</ul>
 	</div>
 	<div class="secoes verde">
-		<h3>Capítulo 11 - Tratamento de Erros e Excecções</h3>
+		<h3>Capítulo 11 - Tratar Erros &amp; Excecções</h3>
 		<ul>
 			<li><a href="exercicio.php?dir=tratamento_erro&file=try_catch">Try &frasl; Catch</a></li>
 			<li><a href="exercicio.php?dir=tratamento_erro&file=erros_personalizados">Erros Personalizados</a></li>
 			<li><a href="exercicio.php?dir=tratamento_erro&file=desafio">Desafio</a></li>
 			<li><a href="exercicio.php?dir=tratamento_erro&file=gerenciador_erro">Error Handler</a></li>
+		</ul>
+	</div>
+	<div class="secoes vermelho">
+		<h3>Capítulo 12 - Sessão &amp; Cookies</h3>
+		<ul>
+			<li><a href="exercicio.php?dir=sessao&file=basico_sessao">Sessões</a></li>
 		</ul>
 	</div>
 </nav>
