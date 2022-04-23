@@ -17,7 +17,6 @@ echo ucfirst(utf8_encode(strftime('%A, %e de %B de %Y, %H:%M', $amanha))) . '<hr
 $proximaSemana = strtotime('+1 week');
 echo ucfirst(utf8_encode(strftime('%A, %e de %B de %Y, %H:%M', $proximaSemana))) . '<hr>';
 
-//mktime(int $hour=null, int $minute=null, int $second=null, int $month=null, int $day=null, int $year=null, int $is_dst=null)
 $hour = 15;
 $minute = 30;
 $second = 50;
