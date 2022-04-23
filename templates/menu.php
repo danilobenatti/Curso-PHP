@@ -153,6 +153,7 @@
 		<ul>
 			<li><a href="exercicio.php?dir=api&file=datas_01">Datas #1</a></li>
 			<li><a href="exercicio.php?dir=api&file=datas_02">Datas #2</a></li>
+			<li><a href="exercicio.php?dir=api&file=escrever_arquivo">Escrevendo Arquivos</a></li>
 		</ul>
 	</div>
 </nav>
