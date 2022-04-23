@@ -148,4 +148,10 @@
 			<li><a href="exercicio.php?dir=sessao&file=gerenciando_sessao">Gerenciando Sessões</a></li>
 		</ul>
 	</div>
+	<div class="secoes azul">
+		<h3>Capítulo 13 - Application Programming Interface - API</h3>
+		<ul>
+			<li><a href="exercicio.php?dir=api&file=datas_01">Datas #01</a></li>
+		</ul>
+	</div>
 </nav>
