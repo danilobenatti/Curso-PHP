@@ -1,3 +1,6 @@
+<?php 
+include_once 'secao.php';
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -20,8 +23,10 @@
 		<h2>Visualização do Exercício</h2>
 	</header>
 	<nav class="navegacao">
+		<span class="usuario">Usuário: <?= $_SESSION['usuario'] ?></span>
 		<a href=<?="{$_GET['dir']}/{$_GET['file']}.php"?> class="verde">Sem formatação</a>
-		<a href="index.php" class="vermelho">Início</a>
+		<a href="index.php">Início</a>
+		<a href="logout.php" class="vermelho">Sair</a>
 	</nav>
 	<main class="principal">
 		<div class="conteudo">
