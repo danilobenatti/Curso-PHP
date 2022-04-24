@@ -27,7 +27,7 @@ if ($emailRecebido !== NULL && isset($emailRecebido)) {
 		if ($emailValido && $senhaValida) {
 			$_SESSION['erros'] = NULL;
 			$_SESSION['usuario'] = $usuario['nome'];
-			$expiraLogin = time() + 10; // em segundos
+			$expiraLogin = time() + 60 * 60 * 24; // em segundos
 			setcookie('usuario', $usuario['nome'], $expiraLogin);
 			header('Location: index.php');
 		} else {
