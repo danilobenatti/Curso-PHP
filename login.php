@@ -1,12 +1,13 @@
 <?php 
 ini_set('display_errors', 0);
 session_start();
-$_SESSION['erros'] = NULL;
+// $_SESSION['erros'] = NULL;
 
 $emailRecebido = $_POST['e_mail'];
 $senhaRecebida = $_POST['password'];
 
 if ($emailRecebido !== NULL && isset($emailRecebido)) {
+	$_SESSION['erros'] = NULL;
 	$usuarios = [
 		[
 			"nome" => "Maria José",
@@ -26,24 +27,25 @@ if ($emailRecebido !== NULL && isset($emailRecebido)) {
 		if ($emailValido && $senhaValida) {
 			$_SESSION['erros'] = NULL;
 			$_SESSION['usuario'] = $usuario['nome'];
-			$expiraLogin = time() + 60 * 60;
+			$expiraLogin = time() + 10; // em segundos
 			setcookie('usuario', $usuario['nome'], $expiraLogin);
 			header('Location: index.php');
+		} else {
+			$_SESSION['erros'] = ["Usuario e/ou Senha inválido(s)!"];
 		}
 	}
 	
-	if (!$_SESSION['usuario']) {
-		$_SESSION['erros'] = ["Usuario e/ou Senha inválido(s)!"];
-	}
+// 	if (!$_SESSION['usuario']) {
+// 		$_SESSION['erros'] = ["Usuario e/ou Senha inválido(s)!"];
+// 	}
 }
-
 ?>
 
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 <link rel="stylesheet" href="resources\css\style.css">
 <link rel="stylesheet" href="resources\css\login.css">
@@ -69,12 +71,14 @@ if ($emailRecebido !== NULL && isset($emailRecebido)) {
 			<?php endif ?>
 		<form action="#" method="post">
 				<div>
-					<label for="email">E-mail:</label>
-					<input type="email" id="email" name="e_mail">
+					<label for="email">E-mail:</label> <input type="email" id="email"
+						name="e_mail" required="required" title="Informe o e-mail"
+						placeholder="E-mail">
 				</div>
 				<div>
-					<label for="senha">Senha: </label>
-					<input type="password" id="senha" name="password">
+					<label for="senha">Senha: </label> <input type="password"
+						id="senha" name="password" required="required"
+						title="Informe a senha" placeholder="Senha">
 				</div>
 				<button>Enviar</button>
 			</form>
@@ -83,6 +87,3 @@ if ($emailRecebido !== NULL && isset($emailRecebido)) {
 	<footer class="rodape">COD3R &amp; ALUNOS &copy; <?= date('Y')?></footer>
 </body>
 </html>
-<?php 
-
-?>
