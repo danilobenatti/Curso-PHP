@@ -1,7 +1,9 @@
 <div class="titulo">Download de Arquivos</div>
 
 <?php
-//session_start();
+if (!isset($_SESSION)) {
+	session_start();
+}
 
 if ($_FILES && $_FILES['file']) {
 	$filesList = $_SESSION['files'] ?? []; // instancia um array vazio.
